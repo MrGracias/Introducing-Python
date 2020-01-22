@@ -2,7 +2,6 @@
 ogracias
 Current Module: chapter_3.lists_43_53
 '''
-from ntpath import sep
 empty_list = []
 
 #adding more lists
@@ -190,6 +189,7 @@ print('marxes:', marxes)
 sorted_marxes = sorted(marxes)# Makes a copy of the list
 print('sorted_marxes:', sorted_marxes)
 print('marxes:', marxes, '\n\n')
+print('sorted_marxes:', sorted_marxes, '\n\n')
 
 marxes.sort()
 print('marxes sort():', marxes, '\n\n')
